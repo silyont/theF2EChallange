@@ -23,7 +23,7 @@
               ></podomoro>
               <span class="leading-tight">
                 <div>{{ todoTask.title }}</div>
-                <div class="flex mt-1">
+                <div class="flex my-1">
                   <span
                     v-for="n in todoTask.estimatedTime"
                     :key="`timer_${n}`"
@@ -43,7 +43,7 @@
             </span>
 
             <span class="flex items-center justify-center">
-              <i class="material-icons text-muted">more_horiz</i>
+              <i class="material-icons text-muted fill-current">more_horiz</i>
             </span>
           </div>
         </div>
@@ -65,7 +65,7 @@
               >
               <span class="leading-tight">
                 <div>{{ doneTask.title }}</div>
-                <div class="flex mt-1">
+                <div class="flex my-1">
                   <span
                     v-for="n in doneTask.estimatedTime"
                     :key="`timer_${n}`"

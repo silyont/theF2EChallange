@@ -5,11 +5,11 @@
 @tailwind utilities;
 
 .vue-tablist {
-    @apply .flex;
+    @apply .flex .p-0 .m-0 .mb-1/2;
 }
 
 .vue-tab {
-    @apply .bg-muted-dark .text-muted .text-xs .font-black .tracking-wide .mr-2 .px-5 .py-1 .rounded-t-lg .cursor-pointer;
+    @apply .list-none .bg-muted-dark .text-muted .text-xs .font-black .tracking-wide .mr-2 .px-5 .py-1 .rounded-t-lg .cursor-pointer;
     transition: all 0.3s ease;
 }
 
