@@ -1,0 +1,26 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.vue-tablist {
+    @apply .flex;
+}
+
+.vue-tab {
+    @apply .bg-muted-dark .text-muted .text-xs .font-black .tracking-wide .mr-2 .px-5 .py-1 .rounded-t-lg .cursor-pointer;
+    transition: all 0.3s ease;
+}
+
+.vue-tab[aria-selected='true'] {
+    @apply .bg-primary .text-white;
+}
+
+.item {
+    @apply .flex .justify-between .bg-gray .mb-1/2 .p-4 .tracking-wider
+}
+
+.item.collapse {
+    @apply .py-2
+}
